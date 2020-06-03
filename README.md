@@ -21,13 +21,13 @@ You can run the tutorial notebook.
 
 To test this notebook on the actual tub of collected images:
 
-Copy some images of the same directory and paste in a new folder(anyname) in your cwd
+1. Copy some images of the same directory and paste in a new folder(anyname) in your cwd
 
-Change the dst, src and dst in the notebook before running the cell.
+2. Change the dst, src and dst in the notebook before running the cell.
 
 The 1st line - dst contains the filename you want to name as. The 2nd and 3rd line - src and dst contains the cwd path where your file is at
 
-Check if your images have been renamed in running order.
+3. Check if your images have been renamed in running order.
 
 Download the ipynb files and place in CWD
 
@@ -47,7 +47,7 @@ Windows uses "\\" & Linux uses "//" for directory path
 
 3. Ensure all directory path for train_generators are specified as well
 
-There are TWO WAYS to LOAD the folder from directory path
+# There are TWO WAYS to LOAD the folder from directory path
 
 1. filenames = os.listdir('C:\Users\kansh\Desktop\FYP\TrackImage0\data\'
 
